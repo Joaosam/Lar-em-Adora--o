@@ -83,6 +83,9 @@ body {
 
 footer {
   background-color: var(--default-yellow);
+}
+
+footer .contact {
   display: flex;
   align-items: center;
   margin-top: 2rem;
@@ -92,6 +95,18 @@ footer img {
   margin: 2rem 0.5rem 2rem 1.5rem;
   width: 5rem;
   height: 5rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer span {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  display: flex;
+  justify-content: center;
 }
 
 
