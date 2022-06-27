@@ -6,7 +6,7 @@
 
 :root {
   font-size: 62.5%;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Anek Latin', sans-serif;
 
   --text-color: #fff;
   --bg-color: #181716;
@@ -83,12 +83,12 @@ body {
 
 footer {
   background-color: var(--default-yellow);
+  margin-top: 2rem;
 }
 
 footer .contact {
   display: flex;
   align-items: center;
-  margin-top: 2rem;
 }
 
 footer img {
