@@ -21,7 +21,7 @@
 
 A ideia desse projeto foi criar um convite para o lar em adoração
 
-Live Preview: https://joaosam.github.io/Lar-em-Adora--o/
+Live Preview: https://joaosam.github.io/Lar-em-Adoracao/
 
 ## :memo: Licença
 
