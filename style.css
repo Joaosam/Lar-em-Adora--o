@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Libre Baskerville', serif;
+
+  --text-color: #fff;
+  --bg-color: #181716;
+  --default-yellow: #d0a133;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100vw;
+  height: 9rem;
+  background-color: var(--default-yellow);
+}
+
+.logo img {
+  width: 12rem;
+  height: 10rem;
+}
+
+.containerDescription {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 2rem 1.5rem;
+}
+
+.containerDescription p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.containerImg img {
+  width: 100vw;
+}
+
+.infosLar {
+  margin: 2rem 0 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.infosLar > p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.infosLar .time,
+.infosLar .location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.infosLar .time img,
+.infosLar .location img {
+  width: 3rem;
+  height: 3rem;
+  margin-left: -0.3rem;
+}
+
+.infosLar span {
+  margin: 0.7rem 1.5rem 0 0;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+footer {
+  background-color: var(--default-yellow);
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+footer img {
+  margin: 2rem 0.5rem 2rem 1.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+
