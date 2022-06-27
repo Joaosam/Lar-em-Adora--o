@@ -107,6 +107,7 @@ footer span {
   margin-bottom: 0.2rem;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 
