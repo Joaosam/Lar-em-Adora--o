@@ -114,7 +114,7 @@ footer .pulse:after {
   height: 55%;
   border-radius: 50%;
   z-index: -1;
-  opacity: 0.7;
+  opacity: 0.8;
   animation: 1500ms ease .2s infinite normal none running pulse;
 }
 
