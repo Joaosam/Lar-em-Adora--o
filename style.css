@@ -152,7 +152,7 @@ footer p {
 footer span {
   text-align: center;
   font-weight: 700;
-  margin-bottom: 0.2rem;
+  padding-bottom: 0.3rem;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
