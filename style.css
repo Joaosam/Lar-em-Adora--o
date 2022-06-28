@@ -115,7 +115,7 @@ footer .pulse:after {
   border-radius: 50%;
   z-index: -1;
   opacity: 0.8;
-  animation: 1500ms ease .2s infinite normal none running pulse;
+  animation: 1.8s ease .2s infinite normal none running pulse;
 }
 
 @keyframes pulse {
